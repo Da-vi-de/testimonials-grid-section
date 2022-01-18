@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        background-color: hsl(210, 46%, 95%);
+    }
+
+    .color-1 {
+        background-image: url(../images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: top right 30px;
+        background-color: #733fc8;
+    }
+
+    .color-2 {
+        background-color: #48556a;
+    }
+
+    .color-3,
+    .color-5 {
+        background-color: #ffffff;
+    }
+
+    .color-4 {
+        background-color: #19202d;
+    }
+}
