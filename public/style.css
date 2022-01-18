@@ -606,7 +606,7 @@ body {
 }
 
 .color-1 {
-  background-image: url(../images/bg-pattern-quotation.svg);
+  background-image: url(../public/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: top right 30px;
   background-color: #733fc8;
